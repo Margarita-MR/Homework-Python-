@@ -17,21 +17,21 @@ else:
 
 #  Вариант 2
 
-print('Введите номер дня недели - ',end='') 
-day=int(input())
-if day==1:
-    print('нет')
-elif day==2:
-    print('нет')
-elif day==3:
-    print('нет')
-elif day==4:
-    print('нет')
-elif day==5:
-    print('нет')
-elif day==6:
-    print('да')
-elif day==7:
-    print('да')
-else: 
-    print('в неделе 7 дней')
+# print('Введите номер дня недели - ',end='') 
+# day=int(input())
+# if day==1:
+#     print('нет')
+# elif day==2:
+#     print('нет')
+# elif day==3:
+#     print('нет')
+# elif day==4:
+#     print('нет')
+# elif day==5:
+#     print('нет')
+# elif day==6:
+#     print('да')
+# elif day==7:
+#     print('да')
+# else: 
+#     print('в неделе 7 дней')
