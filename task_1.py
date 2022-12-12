@@ -4,11 +4,8 @@
 
 print('Введите номер дня недели - ',end='') 
 day=int(input())
-# norm_wd = [1,5]
-# norm_sd = [6,7]
 if day == 1 or day == 2 or day == 3 or day == 4 or day == 5: 
     print(f'{day} -> нет')
-
 elif day == 6 or day == 7: 
     print(f'{day} -> да')
 else:
