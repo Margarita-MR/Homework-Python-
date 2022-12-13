@@ -3,15 +3,14 @@
 # - A (3,6); B (2,1) -> 5,09
 # - A (7,-5); B (1,-1) -> 7,21
 
-print('Введите координаты точки А:', end='')
-
+print('Введите координаты точки А:')
 x_1 = float(input('х = '))
 y_1 = float(input('y = '))
 
-print('Введите координаты точки B:',end='')
+print('Введите координаты точки B:')
 x_2 = float(input('х = '))
 y_2 = float(input('y = '))
 
 import math
 distance=round(math.sqrt(((x_2-x_1)**2)+((y_2-y_1)**2)),2)
-print('Растояние между точками А и В = ', distance)
+print(f'А{x_1,y_1}; В{x_2,y_2} ->', distance)
