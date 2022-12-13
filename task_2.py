@@ -1,11 +1,10 @@
 # Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 
-x = range(2)
-y = range(2)
-z = range(2)
-if (not(x or y or z)) == (not x and not y and not z):
-    print(True)
-else:
-    print(False)
-    
 
+for x in [True,False]:
+    for y in [True,False]:
+        for z in [True,False]:
+          if (not((x or y) or z)) == (((not x) and (not y)) and (not z)):
+            print(x,y,z, '-> Истина')
+          else:
+            print(x,y,z,'-> Ложь')
